@@ -1,0 +1,33 @@
+.committee-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.committee-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.committee-name {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.remove-button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.remove-button:hover {
+    background-color: #c9302c;
+}

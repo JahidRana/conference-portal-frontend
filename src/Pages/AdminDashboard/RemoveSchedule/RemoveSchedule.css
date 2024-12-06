@@ -1,0 +1,85 @@
+.remove-schedule {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .schedule-table {
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .schedule-table h3 {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin: 0;
+    font-size: 1.25rem;
+    text-align: left;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: #f1f1f1;
+  }
+  
+  th, td {
+    padding: 12px 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  td {
+    color: #555;
+  }
+  
+  .btn-danger {
+    background-color: #e63946;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-danger:hover {
+    background-color: #d62828;
+  }
+  .paper-ids{
+    width: 115px;
+  }
+  @media (max-width: 768px) {
+    .schedule-table {
+      box-shadow: none;
+      border: 1px solid #ddd;
+    }
+  
+    th, td {
+      padding: 10px;
+    }
+  
+    .btn-danger {
+      padding: 6px 10px;
+      font-size: 0.8rem;
+    }
+  }
+  

@@ -1,0 +1,52 @@
+/* submissionTrack.css */
+
+.accepted-papers-list-container {
+    margin: 100px auto;
+    max-width: 800px;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.accepted-papers-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.accepted-papers-section h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #0044cc;
+    border-bottom: 2px solid #0044cc;
+    padding-bottom: 10px;
+}
+
+.paper-item {
+    font-size: 16px;
+    padding: 10px 0;
+    position: relative;
+    color: #333;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.paper-item::before {
+    content: '•';
+    color: #ff4500;
+    font-weight: bold;
+    display: inline-block;
+    width: 20px;
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
+.paper-item:last-child {
+    border-bottom: none;
+}
+
+.accepted-papers-section p {
+    margin: 0;
+    color: #555;
+}

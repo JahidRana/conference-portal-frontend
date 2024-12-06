@@ -1,0 +1,80 @@
+.add-accommodation {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .add-accommodation-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .add-accommodation-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fff;
+  }
+  
+  .add-accommodation-form-group {
+    margin-bottom: 15px;
+  }
+  
+  .add-accommodation-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .add-accommodation-input,
+  .add-accommodation-textarea,
+  .add-accommodation-file-input {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .add-accommodation-textarea {
+    resize: vertical;
+  }
+  
+  .add-accommodation-file-input {
+    padding: 4px;
+  }
+  
+  .add-accommodation-add-more-button,
+  .add-accommodation-submit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-accommodation-add-more-button:hover,
+  .add-accommodation-submit-button:hover {
+    background-color: #45a049;
+  }
+  
+  .add-accommodation-submit-button {
+    background-color: #2196F3;
+  }
+  
+  .add-accommodation-submit-button:hover {
+    background-color: #0b7dda;
+  }
+  

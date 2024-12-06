@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro|Oswald);
+
+.date{
+  position: relative;
+  margin-top: 100px;
+}
+.date h4 {
+
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    color: #222;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+    padding: 10px 75px;
+
+}
+
+.date h4:after,
+.date h4:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #c50000;
+    border-top: 1px solid #c50000;
+    height: 5px;
+    background-color: #f8f8f8;
+}
+/****************************************/
+/* Styling rules, such as font and colors */
+.date-as-calendar {
+  font-variant: normal;
+  font-style: normal;
+  font-weight: normal;
+  font-family: "Helvetica", "Arial", sans-serif;
+  color: black;
+  background: white;
+  background : linear-gradient(to bottom right, #FFF 0%, #EEE 100%);
+  border: 1px solid #888;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 2px 2px 2px -2px black;
+}
+
+.date-as-calendar .day,
+.date-as-calendar .month{
+  text-align: center;
+  line-height: 1.0;
+}
+.date-as-calendar .month {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    background: linear-gradient(to bottom right, #ba1f1f 0%, #000 100%);
+    color: white;
+}
+
+
+/****************************************/
+/* Layout rules using display: inline-flex and relative dimensions using em. */
+.inline-flex.date-as-calendar {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  
+  width: 4em; 
+  height: 2em; 
+}
+
+.inline-flex.date-as-calendar .month {
+  order: 1;
+  font-size: 0.4em;
+  padding: 5px;
+}
+
+.inline-flex.date-as-calendar .day {
+  order: 3;
+  font-size: 0.5em;
+}
+
+
+/****************************************/
+/* Multiple sizes. */
+
+.date-as-calendar.size3x {
+  font-size: 52px;
+}
+/* .conference-date{
+align-items: left;
+width: max-content;
+margin-left: -37px;
+} */

@@ -1,0 +1,12 @@
+.AuthorSidebar{
+    margin-top: -20px;
+    width: 200px;
+    flex-shrink: 0;
+    background-color: rgba(22, 22, 22, 1);
+    height: 98%;
+    overflow: scroll;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    z-index: 10;
+}

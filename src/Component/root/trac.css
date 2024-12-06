@@ -1,0 +1,39 @@
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+  .SidebarContainer{
+    width: 230px;
+    flex-shrink: 0;
+    background-color: rgba(22, 22, 22, 1);
+    height: 98%;
+    overflow: scroll;
+    text-align: left;
+    position: fixed;
+    margin-top: 73px;
+    color: #fff;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+  .Component{
+    margin-left: auto;
+    width: 1265px;
+    margin-top: 100px;
+}
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  margin-left: 14px;
+  border-left: 0.3em solid transparent;
+  font-size: x-large;
+}

@@ -1,0 +1,81 @@
+.containerForSpeakers {
+    margin-top: 7%;
+  }
+  
+  .table-container {
+    width: 100%;
+  }
+  
+  .custom-table {
+    margin: auto;
+    border: 2px solid #73ad21;
+    border-radius: 15px 50px;
+    width: 75%;
+  }
+  
+  th.table-head {
+    padding: 22px;
+    background: #e89727;
+    text-align: center;
+    font-size: 60px;
+    line-height: 1.15;
+    font-weight: bold;
+  }
+  
+
+  .first-thead {
+    width: 100%;
+    background-color: #332453;
+  }
+  
+ 
+  .first-thead h1 {
+    text-align: center;
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Define styles for the first row */
+  .first-row .speaker-image img {
+    width: 100%; /* Make the image width 100% of its container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .first-row .speaker-info {
+    padding: 20px; /* Add padding to the speaker information */
+    background-color: #c9e6ff; /* Add a background color */
+  }
+  
+  .first-row .speaker-title {
+    margin-bottom: 10px; /* Add margin below the speaker title */
+  }
+  
+  .first-row .speaker-info p {
+    margin-bottom: 5px; /* Add margin below each paragraph in the speaker information */
+  }
+  
+  .first-row .speaker-info em {
+    font-style: italic; /* Italicize the website URL */
+  }
+  
+  /* Define styles for the main heading */
+  .main-heading {
+    width: 100%; /* Ensures the heading spans the full width of its container */
+    padding: 20px; /* Adjust padding as needed */
+  }
+  
+  /* Define any additional styles here */
+  .second-row{
+    padding: 20px; /* Add padding to the speaker information */
+    background-color: #FACFBE; /* Add a background color */
+    border-bottom: 1px solid #dcdcdc;
+  }
+
+  tr.first-row {
+    background-color: #c9e6ff; /* Add a background color */
+    border-bottom: 1px solid #dcdcdc;
+}
+
+
+td.content-column {
+    padding-left: 30px;
+}

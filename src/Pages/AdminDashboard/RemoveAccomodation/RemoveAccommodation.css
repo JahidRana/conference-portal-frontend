@@ -1,0 +1,79 @@
+.raccommodation-list {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f5f7fa;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .accommodation-list-title {
+    font-size: 26px;
+    color: #1a73e8;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  .accommodation-list-items {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .accommodation-list-item {
+    background-color: #ffffff;
+    border: 2px solid #1a73e8;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .accommodation-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .accommodation-description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .remove-accommodation-image {
+    width: -webkit-fill-available;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #d0d7de;
+  }
+  
+  .remove-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #d9534f;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .remove-button:hover {
+    background-color: #c9302c;
+  }
+  .no-data-message {
+    font-size: 18px;
+    color: #777;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+    

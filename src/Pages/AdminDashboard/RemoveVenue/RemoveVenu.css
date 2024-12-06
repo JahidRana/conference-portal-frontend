@@ -1,0 +1,58 @@
+/* RemoveVenue.css */
+
+.venue-list {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  .venue-list-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+  }
+  
+  .venue-list-items {
+    list-style: none; /* Remove default list styles */
+    padding: 0;
+  }
+  
+  .venue-list-item {
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space out items */
+    margin-bottom: 15px; /* Space between items */
+    padding: 15px;
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #fff; /* White background for items */
+  }
+  
+  .venue-description {
+    flex: 1; /* Make description take available space */
+    margin-right: 15px; /* Space between description and image */
+    font-size: 16px; /* Font size */
+    color: #555; /* Grey text color */
+  }
+  
+  .remove-venue-image {
+    width: 100px!important; /* Fixed width for images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners for images */
+  }
+  
+  .remove-button {
+    padding: 8px 12px; /* Padding for button */
+    background-color: #e74c3c; /* Red background */
+    color: white; /* White text */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Transition effect */
+  }
+  
+  .remove-button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+  }
+  

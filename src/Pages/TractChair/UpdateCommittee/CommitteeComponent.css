@@ -1,0 +1,110 @@
+.committee-container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 70px;
+  justify-content: center;
+}
+
+.committee-card {
+  width: 100%;
+}
+
+.committee-name {
+  text-align: center;
+}
+
+.member-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.member-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.member-details {
+  font-size: 16px;
+  flex: 1;
+}
+
+.member-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.remove-button {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.remove-button:hover {
+  background-color: #d63031;
+}
+
+h3.committee-name {
+  color: blue;
+}
+
+.add-member-button {
+  background-color: #4CAF50; /* Green background */
+  border: none; /* No borders */
+  color: white; /* White text */
+  padding: 6px 8px; /* Some padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* No underline */
+  display: inline-block; /* Inline-block display */
+  font-size: 16px; /* Text size */
+  margin: 4px 2px; /* Some margin */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.add-member-button:hover {
+  background-color: #45a049; /* Darker green background on hover */
+}
+
+.committe-select {
+  font-size: 19px;
+  font-weight: bold;
+  margin-right: 10px;
+  color: #333;
+}
+
+select#committee-select {
+  background: cornflowerblue;
+  height: 41px;
+  width: 209px;
+  text-align: center;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  padding: 10px; /* Padding for the select element */
+}
+
+/* Even and Odd styles for options */
+.even-option {
+  background-color: #f2f2f2;
+}
+
+.odd-option {
+  background-color: #ffffff;
+}
+
+/* Add padding for options */
+option {
+  padding: 10px; /* This may not work in all browsers */
+}

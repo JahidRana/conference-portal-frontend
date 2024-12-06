@@ -1,0 +1,33 @@
+[
+    {
+        "id" : 1,
+        "field": "Deep Learning Project Domain"
+
+    },{
+        "id" : 2,
+        "field" : "Machine Learning Project Domain."
+    },{
+        "id" : 3,
+        "field" : "Blockchain Project Domain."
+    }
+    ,{
+        "id" : 4,
+        "field" : "Quantum Computing Project Domain."
+    }
+    ,{
+        "id" : 5,
+        "field" : "Deep Learning Project Domain."
+    }
+    ,{
+        "id" : 6,
+        "field" : "IOT Domain for Information Technology."
+    }
+    ,{
+        "id" : 7,
+        "field" : "Data Mining Domain for IT."
+    }
+    ,{
+        "id" : 8,
+        "field" : "Android Domain for Information Technology."
+    }
+]

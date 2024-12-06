@@ -1,0 +1,256 @@
+/* General Styling */
+.paper-details-container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .paper-title {
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  .paper-details-id{
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .paper-content {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .authors-list {
+    padding-left: 20px;
+    color: #555;
+  }
+  
+  .paper-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .paper-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Action Buttons */
+  .action-buttons-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .button-assign,
+  .button-show-reviews,
+  .button-accept,
+  .button-reject {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Individual Button Colors */
+  .button-assign {
+    background-color: #28a745;
+  }
+  
+  .button-assign:hover {
+    background-color: #218838;
+  }
+  
+  .button-show-reviews {
+    background-color: #17a2b8;
+  }
+  
+  .button-show-reviews:hover {
+    background-color: #138496;
+  }
+  
+  .button-accept {
+    background-color: #007bff;
+  }
+  
+  .button-accept:hover {
+    background-color: #0056b3;
+  }
+  
+  .button-reject {
+    background-color: #dc3545;
+  }
+  
+  .button-reject:hover {
+    background-color: #c82333;
+  }
+  
+  button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  /* Modal Overlay */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .modal-title {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.5em;
+  }
+  
+  .modal-label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+  }
+  
+  .modal-select,
+  .modal-button {
+    border-radius: 10px;
+    height: 45px;
+    width: 100%;
+   
+    margin-bottom: 10px;
+  }
+  
+  .modal-button-close {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .modal-button-assign {
+    background-color: rgb(41, 13, 248);
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 3px;
+  }
+  
+  .modal-button:hover {
+    background-color: #5a6268;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .review-modal-content {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    /* width: 80%; */
+    max-width: 70%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  
+  .modal-title {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .review-table-container {
+    overflow-x: auto;
+    margin-top: 10px;
+  }
+  
+  .review-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .review-table th,
+  .review-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .review-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .review-table td {
+    color: #333;
+  }
+  
+  .review-table td a {
+    color: #007bff; /* Link color */
+    text-decoration: none;
+  }
+  
+  .review-table td a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .modal-content {
+      width: 95%;
+    }
+  
+    .action-buttons-container {
+      flex-direction: column;
+    }
+  
+    .review-table th,
+    .review-table td {
+      font-size: 14px;
+    }
+  
+    .paper-details-container {
+      padding: 15px;
+    }
+  }
+  

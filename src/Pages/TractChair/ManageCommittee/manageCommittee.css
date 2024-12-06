@@ -1,0 +1,154 @@
+.committeeName {
+    display: flex;
+    width: 65%;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.labelStyle {
+    width: 25%;
+}
+.subCommitteeNameLabel{
+    width: 45%;
+}
+
+.buttonContainer {
+    text-align: right;
+    margin: 20px 35px 0px 0px;
+}
+
+.committeeInputField {
+    font-family: 'Roboto';
+}
+
+.mainCommitteeContainer {
+    margin: 5px auto;
+    display: inline-block;
+    background: white;
+    border-radius: 4px;
+    box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+    padding: 8px;
+}
+
+.committeeInputField input {
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid #757575;
+}
+
+.subCommitteeInputContainer {
+    align-items: center;
+    justify-content: space-around;
+    margin: 51px 0px;
+}
+
+label {
+    color: #999;
+    font-size: 18px;
+    font-weight: normal;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+/* active state */
+input:focus~label,
+input:valid~label {
+    top: -20px;
+    font-size: 14px;
+    color: #5264AE;
+}
+
+
+.committeeInputField input {
+    width: 98%;
+}
+
+.forWidth {
+    width: 99%;
+}
+
+.TitleForCreatingCommittee h4 {
+
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    color: #222;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+    padding: 10px 75px;
+
+}
+
+.TitleForCreatingCommittee h4:after,
+.TitleForCreatingCommittee h4:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #c50000;
+    border-top: 1px solid #c50000;
+    height: 5px;
+    background-color: #f8f8f8;
+}
+
+
+
+.button-81 {
+  margin-top: -30px;
+  margin-bottom: 50px;
+  border: 0.5 solid #201e1e;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #1f1a1a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0e1117 solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-81:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+.buttonGroup {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+
+@media (min-width: 768px) {
+  .button-81 {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}
+
+
+

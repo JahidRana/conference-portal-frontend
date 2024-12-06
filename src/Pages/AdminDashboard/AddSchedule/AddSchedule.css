@@ -1,0 +1,96 @@
+.add-schedule {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.add-schedule-title {
+  text-align: start;
+  margin-bottom: 25px;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+}
+
+.table-header, .table-row {
+  display: flex;
+  align-items: center;
+}
+
+.table-header {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.table-cell, .table-cell-input {
+  padding: 4px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.table-cell {
+  font-size: 14px;
+  text-align: start;
+  padding-left: 62px;
+  white-space: nowrap;
+}
+.table-cell-input {
+  font-size: 12px;
+  height: 35px;
+  width: 112px;
+  text-align: center;
+}
+
+.table-cell-input.select-title {
+  width: 600px;
+  font-size: 13px;
+}
+
+.table-cell-input[readonly] {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}
+
+.table-cell-input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 12px 15px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  margin-right: 10px;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: white;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .table-cell-input {
+      font-size: 10px;
+      width: 50px;
+  }
+
+  .table-cell-input.select-title {
+      width: 200px;
+  }
+
+  .btn {
+      padding: 6px 10px;
+      font-size: 12px;
+  }
+}

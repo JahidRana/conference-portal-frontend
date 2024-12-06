@@ -1,0 +1,191 @@
+/* SubmissionGuideline.css */
+
+.submission-guideline-container {
+    margin: 100px auto;
+    max-width: 800px;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.guideline-section, .research-area-section {
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.guideline-section h1, .research-area-section h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #0044cc;
+    border-bottom: 2px solid #0044cc;
+    padding-bottom: 10px;
+}
+
+.guideline-section p {
+    font-size: 16px;
+    margin-bottom: 0;
+    color: #555;
+}
+
+.research-area-section ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.research-area-section li {
+    font-size: 16px;
+    padding: 10px 0;
+    position: relative;
+    color: #333;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.research-area-section li::before {
+    content: '•';
+    color: #ff4500;
+    font-weight: bold;
+    display: inline-block;
+    width: 20px;
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
+.research-area-section li:last-child {
+    border-bottom: none;
+}
+/* -------------- */
+
+.submission-process-section {
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.submission-process-section h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #0044cc;
+    border-bottom: 2px solid #0044cc;
+    padding-bottom: 10px;
+}
+
+.submission-process-section ol {
+    list-style-type: none;
+    padding-left: 20px;
+    counter-reset: step-counter; /* Reset the counter */
+}
+
+.submission-process-section li {
+    font-size: 16px;
+    padding: 10px 0;
+    position: relative;
+    color: #333;
+    border-bottom: 1px solid #e0e0e0;
+    counter-increment: step-counter; /* Increment the counter */
+}
+
+.submission-process-section li::before {
+    content: counter(step-counter) ".";
+    color: #ff4500;
+    font-weight: bold;
+    display: inline-block;
+    width: 20px;
+    margin-left: -30px; /* Adjust according to design */
+    margin-right: 10px;
+}
+
+.submission-process-section li:last-child {
+    border-bottom: none;
+}
+
+/* Domain section styling */
+.domain-section {
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.domain-section h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #0044cc;
+    border-bottom: 2px solid #0044cc;
+    padding-bottom: 10px;
+}
+
+.domain-list {
+    list-style-type: none;
+    padding-left: 20px;
+    margin: 0;
+    counter-reset: domain-counter;
+}
+
+.domain-item {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    padding: 10px;
+    position: relative;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.domain-item:last-child {
+    border-bottom: none;
+}
+
+.domain-item::before {
+    counter-increment: domain-counter;
+    content: counter(domain-counter) ".";
+    color: #0044cc;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.domain-icon {
+    margin-right: 10px;
+}
+
+.subdomain-list {
+    list-style-type: none;
+    padding-left: 20px;
+    margin-top: 5px;
+    counter-reset: subdomain-counter;
+}
+
+.subdomain-list li {
+    font-size: 16px;
+    padding: 5px 0;
+    color: #333;
+    border-bottom: 1px solid #e0e0e0;
+    position: relative;
+}
+
+.subdomain-list li::before {
+    counter-increment: subdomain-counter;
+    content: counter(subdomain-counter, decimal) "."; /* Use decimal to get hierarchical numbering */
+    color: #ff4500;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.subdomain-list li:last-child {
+    border-bottom: none;
+}
+
+/* Adjustments for the chevron icons */
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 0.86em;
+    overflow: visible;
+    vertical-align: -0.125em;
+}

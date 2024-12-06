@@ -1,0 +1,79 @@
+.add-venue {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-venue-title {
+  font-size: 26px;
+  color: #1a73e8;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.add-venue-form-group {
+  background-color: #ffffff;
+  border: 2px solid #1a73e8;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.add-venue-label {
+  display: block;
+  font-size: 14px;
+  color: #555;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.add-venue-textarea,
+.add-venue-file-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  background-color: #f8fafc;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.add-venue-textarea:focus,
+.add-venue-file-input:focus {
+  outline: none;
+  border-color: #1a73e8;
+}
+
+.add-venue-textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.add-venue-file-input {
+  padding: 5px;
+}
+
+.add-venue-submit-button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #1a73e8;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-venue-submit-button:hover {
+  background-color: #135cb6;
+}

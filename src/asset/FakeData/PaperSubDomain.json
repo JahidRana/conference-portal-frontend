@@ -1,0 +1,17 @@
+[
+    {
+        "id" : 1,
+        "field": "Computer Vision."
+
+    },{
+        "id" : 2,
+        "field" : "Natural Language Processing (NLP)."
+    },{
+        "id" : 3,
+        "field" : "Speech Recognition."
+    }
+    ,{
+        "id" : 4,
+        "field" : "Reinforcement Learning."
+    }
+]

@@ -1,0 +1,115 @@
+/* Center the form and give it some padding */
+form {
+    background-color: #f7f7f7;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the form labels */
+.form-label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Style input fields, textareas, and select elements */
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+/* Change border color when input is focused */
+.form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    background-color: #17a2b8;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #138496;
+}
+
+/* Style for the error and success messages */
+.text-info {
+    color: #17a2b8;
+    font-weight: bold;
+}
+
+.text-success {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.text-danger {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+/* General padding and margin for the form elements */
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+.mb-2 {
+    margin-bottom: 1rem;
+}
+
+/* Center the form title */
+h2.text-center {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Center the form container on smaller devices */
+.m-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    .col-md-6 {
+        max-width: 50%;
+    }
+}
+
+/* Extra styles for responsive behavior */
+@media (max-width: 768px) {
+    .col-md-6 {
+        max-width: 90%;
+    }
+}
+
+/* Style for file input */
+input[type="file"] {
+    padding: 5px;
+}
+
+button.btn.btn-outline-info.text-dark {
+    margin-bottom: 30px;
+}
+.reviewstatus-info{
+    margin-top: 20px;
+}

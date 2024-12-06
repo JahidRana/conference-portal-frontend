@@ -1,0 +1,280 @@
+.navbar {
+    background-color: rgb(46,46,46);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    max-width: 1500px;
+    position: relative;
+  }
+  .nav-logo span{
+    font-size: 2rem !important;
+  }
+  
+  .nav-logo {
+    color: #f5b921; 
+    margin-left: -161px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 1rem;
+    width: 70px !important;
+    margin-right: 70px;
+  }
+  
+  .nav-logo .icon {
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    margin-left: 16px;
+  }
+  
+  .nav-menu {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    margin-right: 2rem;
+  }
+  
+  .nav-links {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+    border-bottom: 3px solid transparent;
+    font-size: 1.2rem !important;
+    font-weight: 900;
+  }
+  /* .fa-code {
+    margin-left: 1rem;
+  } */
+  
+  .nav-item {
+    line-height: 40px;
+    margin-right: 1rem;
+  }
+  
+  .nav-item:after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: width 0.7s ease, background-color 0.5s ease;
+  }
+  
+  .nav-item:hover:after {
+    width: 100%;
+    background: #ffdd40;
+  }
+  
+  .nav-item .active {
+    color: #ffdd40;
+    border: 1px solid #ffdd40;
+  }
+  
+  .nav-icon {
+    display: none;
+    color: #f5b921;
+  }
+  
+  .nav-icon .icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+  }
+
+
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+
+
+.dropdown-toggle::after {
+    display: inline-block;
+    color: rgb(11, 13, 13) !important;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    margin-left: 14px;
+    border-left: 0.3em solid transparent;
+    font-size: x-large;
+}
+.guide-dropdown{
+    color: azure !important;
+    font-size: larger;
+    padding-top: 5px;
+}
+.drop-menu{
+    background-color: rgb(0, 0, 0);
+}
+.NavContainer {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+}
+.dropdown-item {
+  color: #fff !important;
+  background-color: #000000 !important;
+  font-size: large;
+  font-weight: 600;
+}
+.forSubMenu{
+  width: 190px;
+    margin-left: 130px;
+    margin-top: 11px;
+}
+.forSubMenu li{
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 960px) {
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      border-top: 1pxsolid #fff;
+      position: absolute;
+      top: 80px;
+      left: -110%;
+      opacity: 1;
+      transition: all 0.5s ease;
+    }
+  
+    .nav-menu.active {
+      background: #1f5156;
+      left: 0px;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+    }
+    .nav-item .active {
+      color: #ffdd40;
+      border: none;
+    }
+    .nav-links {
+      padding: 1.5rem;
+      width: 100%;
+      display: table;
+    }
+  
+    .nav-logo .icon {
+      width: 2rem;
+      height: 2rem;
+    }
+  
+    .nav-icon {
+      display: block;
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translate(-100%, -50%);
+      width: 2rem;
+      height: 2rem;
+      cursor: pointer;
+      color: #ffdd40;
+    }
+  }
+
+  .logo{
+    width: 137px;
+    height: 64px;
+    border-radius: 40px;
+  }
+
+/* Submenu container */
+.nav-item {
+  position: relative;
+}
+
+.nav-item .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%; /* Aligns the submenu directly below the parent item */
+  left: 0;
+  background-color: #2c2c2c; /* Dark background */
+  border-radius: 5px; /* Slightly rounded corners */
+  overflow: hidden;
+  padding: 0;
+  margin-top: 0; /* No gap between menu and submenu */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Deeper shadow */
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+/* Show submenu on hover with a slide-in effect */
+.nav-item:hover .dropdown-menu,
+.nav-item .dropdown-menu:hover {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* Style individual submenu items */
+.dropdown-item {
+  list-style: none;
+  margin: 0;
+}
+
+.dropdown-item a {
+  display: block;
+  padding: 14px 24px;
+  text-decoration: none;
+  color: #ffffff; /* White text color */
+  font-size: 16px;
+  background-color: transparent; /* Transparent background */
+  border-left: 3px solid transparent; /* Left border for hover effect */
+  transition: background-color 0.3s ease, border-left 0.3s ease; /* Smooth hover effect */
+}
+
+/* Change background and left border on hover */
+.dropdown-item a:hover {
+  background-color: #444444; /* Dark grey hover */
+  border-left: 3px solid #ff4500; /* Orange left border */
+}
+
+/* Ensure the submenu is correctly aligned */
+.nav-item {
+  position: relative;
+}
+.active {
+  color: #ffdd40;
+  border: none;
+}

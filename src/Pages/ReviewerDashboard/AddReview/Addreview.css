@@ -1,0 +1,36 @@
+.title {
+    
+    font-weight: 300;
+    font-size: 40px;
+    color: #080808;
+}
+
+.seven h1 {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    color: #222;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.style{
+    padding: 0px 300px;
+    font-family: monospace;
+    font-size: 30px;
+}
+ hr {
+    width: 150px;
+    height: 5px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+.reviewerName{
+    border-bottom: 2px solid #8e8e8e
+}
+.form-body{
+    font-family: monospace;
+    font-size: 18px;
+}

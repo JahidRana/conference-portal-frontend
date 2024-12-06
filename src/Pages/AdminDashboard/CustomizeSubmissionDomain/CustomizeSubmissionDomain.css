@@ -1,0 +1,74 @@
+/* CustomizeSubmissionDomain.css */
+
+.domain-manager-container {
+    width: 68%;
+    margin: 5px auto;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.domain-manager-title {
+    font-size: 32px;
+    text-align: center;
+    color: #0044cc;
+    margin-bottom: 30px;
+}
+
+.domain-input-wrapper {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.domain-input,
+.subdomain-input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.add-subdomain-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: fit-content;
+    align-self: flex-end;
+}
+
+.add-subdomain-btn:hover {
+    background-color: #218838;
+}
+
+.add-main-domain-btn,
+.save-domains-btn {
+    background-color: #0044cc;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding-bottom: 50px;
+}
+
+.add-main-domain-btn:hover,
+.save-domains-btn:hover {
+    background-color: #0033a0;
+}
+

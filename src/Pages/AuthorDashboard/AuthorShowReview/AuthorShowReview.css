@@ -1,0 +1,115 @@
+/* Container for the entire review section */
+.review-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title for the review information section */
+.review-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    color: #222;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr; /* Creates the lines on either side of the title */
+    grid-gap: 20px; /* Space between the lines and the text */
+    align-items: center;
+    padding: 10px 75px;
+    position: relative;
+}
+
+.review-title::before, .review-title::after {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #c50000; /* Red bottom line */
+    border-top: 1px solid #c50000; /* Red top line */
+    height: 5px;
+    background-color: #f8f8f8; /* Background color to match */
+}
+/* Display the paper title */
+.paper-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Loading message styling */
+.loading-message {
+    font-size: 16px;
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Container for the table */
+.table-container {
+    margin-top: 20px;
+}
+
+/* Styling the review table */
+.review-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.review-table th, .review-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.review-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Zebra striping for table rows */
+.review-table tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+.review-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Styling for links in the table (e.g., "View Pic") */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* No reviews message styling */
+.no-reviews-message {
+    font-size: 16px;
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Responsive table styles for smaller screens */
+@media (max-width: 768px) {
+    .review-table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .review-table th, .review-table td {
+        font-size: 14px;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Submit Paper",
+        "icon": "bi bi-pencil-square",
+        "path" : "/author/submit-paper"
+        
+    },
+    {
+        "title": "Dashboard",
+        "icon": "bi bi-person-dash",
+        "path" : "/author"
+        
+    },
+    {
+        "title": "History",
+        "icon": "bi bi-file-earmark-person-fill",
+        "path" : "/author/history"
+        
+    },
+    {
+        "title": "Home",
+        "icon": "bi bi-house-door-fill",
+        "path" : "/"
+        
+    }
+    
+]

@@ -1,0 +1,81 @@
+.signup-container {
+  display: block;
+  max-width: 460px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 80px;
+}
+
+.signup-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Flex container for form fields, except the expertise and file upload sections */
+.signup-container form div {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* Keep inputs and selects taking full width within their flex containers */
+.signup-container input,
+.signup-container select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.signup-container label {
+  margin: 10px 0 5px; /* Adds spacing between label and input/select elements */
+  font-weight: bold;
+  color: #333;
+}
+
+/* Expertise field dropdowns are displayed as block elements */
+.signup-container .expertise-field {
+  display: block;
+  margin-bottom: 20px; /* Adds spacing below the expertise field */
+}
+
+/* Ensure the dropdowns inside expertise field expand full width */
+.signup-container .expertise-field select {
+  width: 100%;
+  margin-top: 5px;
+}
+
+/* File upload section is displayed as block elements */
+.signup-container .file-upload {
+  display: block; /* Ensure the label and input are on separate lines */
+  margin-bottom: 20px; /* Adds space below the file upload */
+}
+
+/* Styling for file input */
+.signup-container input[type="file"] {
+  display: block;
+  margin-top: 5px;
+  padding: 5px;
+  border: none;
+  background-color: #f0f0f0;
+}
+
+/* Button styling */
+.signup-container button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.signup-container button:hover {
+  background-color: #0056b3;
+}

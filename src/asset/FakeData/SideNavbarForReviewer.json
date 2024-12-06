@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Submit Paper",
+        "icon": "bi bi-pencil-square",
+        "path" : "/reviewer/submit-paper"
+        
+    },
+    {
+        "title": "Review Papers",
+        "icon": "bi bi-journal-check",
+        "path": "/reviewer/review-papers"
+    },
+
+    {
+        "title": "Dashboard",
+        "icon": "bi bi-person-dash",
+        "path" : "/reviewer/dashboard"
+        
+    },{
+        "title": "Home",
+        "icon": "bi bi-house-door-fill",
+        "path" : "/"
+        
+    }
+    
+]

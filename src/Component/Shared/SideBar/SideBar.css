@@ -1,0 +1,28 @@
+.homeSidebar {
+    height: 100%;
+    text-align: left;
+}
+.forRightScroll{
+    height: 525px;
+}
+.forOverflow div{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.homeSidebar h6 a{
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px 32px;
+    text-align: left;
+    background-color: rgb(243 243 243);
+    display: block;
+}
+.homeSidebar a:hover{
+    background-color: rgb(233, 230, 230);
+}
+.homeSidebar h6{
+margin: 40px 36px;
+}
+.homeSidebar svg{
+    margin-right: 10px;
+}

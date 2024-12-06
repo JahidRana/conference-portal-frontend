@@ -1,0 +1,113 @@
+
+.schedule-list {
+  position: relative;
+  margin-top: 100px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    margin-top: 80px;
+  }
+  /* title design css */
+  .schedule-list h4 {
+
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    color: #222;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+    padding: 10px 75px;
+
+}
+
+.schedule-list h4:after,
+.schedule-list h4:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #c50000;
+    border-top: 1px solid #c50000;
+    height: 5px;
+    background-color: #f8f8f8;
+}
+/* ......................... */
+
+  .schedule-table {
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .schedule-table h3 {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin: 0;
+    font-size: 1.25rem;
+    text-align: center;
+  }
+  .day-label {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: xx-large;
+    text-decoration: underline;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: #f1f1f1;
+  }
+  
+  th, td {
+    padding: 12px 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  td {
+    color: #555;
+  }
+  th.paper-id {
+    width: 115px;
+}
+  
+  @media (max-width: 768px) {
+    .schedule-table {
+      box-shadow: none;
+      border: 1px solid #ddd;
+    }
+  
+    th, td {
+      padding: 10px;
+    }
+  }
+
+  .no-schedule {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    margin-top: 20px;
+  }
+  

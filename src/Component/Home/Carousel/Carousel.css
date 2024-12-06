@@ -1,0 +1,82 @@
+/* .forOverlay{
+  opacity: 0.8;
+  background-color: rgba(0, 0, 0, 0.7);
+} */
+
+
+#carouselExampleDark p{
+  backdrop-filter: blur(0px) brightness(50%);
+  margin: auto;
+  border-radius: 10px;
+}
+/* #carouselExampleDark img{
+    animation: zoom-in-zoom-out 10s ease infinite;
+} */
+#carouselExampleDark h6{
+  font-size: 20px;
+  margin: 25px 0px;
+}
+.carousel-caption svg{
+  color: #1d1d1b;
+  font-size: 30px !important;
+}
+
+.carousel-dark .carousel-caption {
+  width: 940px;
+  position: absolute;
+  top: 48%; /* Push it down to the center */
+  left: 50%; /* Push it to the center horizontally */
+  transform: translate(-50%, -50%); /* Center align the content both ways */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Ensure text is centered */
+  max-width: 90%; /* Optional: Limit the width of the caption to avoid text overflow */
+}
+
+.carousel-title {
+  width: max-content;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  z-index: 10;
+  max-width: 90%; /* Allow it to wrap on smaller screens */
+}
+
+.text-background {
+  background-color: rgba(0, 123, 255, 0.9);
+  color: white;
+
+  border-radius: 8px;
+  /* display: inline-block; */
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+  .carousel-title {
+    font-size: 1.8rem; /* Adjust font size for smaller screens */
+    max-width: 100%; /* Make it fit within the screen width */
+    padding: 0 10px;
+  }
+}
+
+
+
+
+@keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.5, 1.5);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+}
+  

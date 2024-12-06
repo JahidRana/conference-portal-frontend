@@ -1,0 +1,160 @@
+.review-papers-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin-left: 50px;
+}
+
+.paper-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.paper-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.paper-item span {
+    margin-right: 20px;
+}
+
+.show-paper-button,
+.review-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.show-paper-button {
+    background-color: #4caf50;
+    color: white;
+}
+
+.review-button {
+    background-color: #2196f3;
+    color: white;
+}
+
+/* Modal Styles */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 850px;
+    max-width: 90%;
+}
+
+.review-textbox {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.file-upload {
+    margin-bottom: 10px;
+}
+
+/* Modal Actions Styles */
+.modal-actions {
+    display: flex;
+    justify-content: space-between; /* Space between the buttons */
+    padding-top: 10px; /* Add some padding above the button row for spacing */
+}
+
+.submit-button, .close-button {
+    flex: 1; /* Ensure both buttons take equal space */
+    margin: 0 5px; /* Add some margin between buttons */
+    padding: 10px 0; /* Increase padding for better button appearance */
+    font-size: 16px; /* Make text larger for better readability */
+    border-radius: 5px; /* Consistent border radius */
+    cursor: pointer;
+}
+
+.submit-button {
+    background-color: #4CAF50; /* Consistent green color */
+    color: white; /* White text for better contrast */
+    border: none; /* Remove any border */
+}
+
+.close-button {
+    background-color: #f44336; /* Consistent red color */
+    color: white; /* White text for better contrast */
+    border: none; /* Remove any border */
+    padding: 25px;
+}
+
+/* Style for the Recommendation label */
+label[for="recommendation"] {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+    color: #333;
+}
+
+/* Style for the dropdown */
+.recommendation-dropdown {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-bottom: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+/* Hover and focus effects */
+.recommendation-dropdown:hover, 
+.recommendation-dropdown:focus {
+    border-color: #007bff; /* Blue border on hover/focus */
+    background-color: #f7f7f7;
+}
+
+.show-review-button {
+    background-color: crimson; /* Green background */
+    border: none; /* Remove border */
+    color: white; /* White text */
+    padding: 5px 10px; /* Padding for the button */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline from the text */
+    display: inline-block; /* Make the button inline-block */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Small margin around the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .show-review-button:hover {
+    background-color: #45a049; /* Darker green background on hover */
+  }
+  
+  .show-review-button:focus {
+    outline: none; /* Remove the default focus outline */
+    box-shadow: 0 0 5px #4CAF50; /* Green glow on focus */
+  }
+  

@@ -1,0 +1,33 @@
+.speaker-form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.speaker-form input[type="text"],
+.speaker-form textarea,
+.speaker-form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.speaker-form textarea {
+    resize: vertical;
+}
+
+.speaker-form button {
+    background-color: #0056b3;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.speaker-form button:hover {
+    background-color: #003d7a;
+}

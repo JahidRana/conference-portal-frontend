@@ -1,0 +1,91 @@
+
+.paginationBtn{
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-self: center;
+  
+}
+
+
+.paginationBtn a{
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid rgb(92, 103, 93);
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+.paginationBtn a:hover{
+  color: black;
+  background: #989fba;
+}
+.paginationActive a {
+  background: #717790;
+  color: #fff;
+
+}
+.nextBtn {
+  text-decoration: none;
+  color: black;
+}
+.PreviousBtn {
+  text-decoration: none;
+  color: black;
+}
+.ul-center ul{
+  justify-content: center;
+}
+
+.buttons button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: #ff385c;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+.ReviewerTitle h4 {
+
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  color: #222;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-template-rows: 27px 0;
+  grid-gap: 20px;
+  align-items: center;
+  padding: 10px 75px;
+
+}
+
+.ReviewerTitle h4:after,
+.ReviewerTitle h4:before {
+  content: " ";
+  display: block;
+  border-bottom: 1px solid #c50000;
+  border-top: 1px solid #c50000;
+  height: 5px;
+  background-color: #f8f8f8;
+}
+.abstract-text{
+  font-family: 'serif', auto;
+}
+
+#buttonContainer{
+  display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+

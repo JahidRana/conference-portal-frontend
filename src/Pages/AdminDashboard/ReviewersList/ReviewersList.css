@@ -1,0 +1,55 @@
+.reviewer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .reviewer-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reviewer-info {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+  }
+  
+  .reviewer-name {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .reviewer-email {
+    color: #555;
+  }
+  
+  .reviewer-role {
+    color: #007bff;
+  }
+  
+  .btns {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btns:hover {
+    background-color: #c82333;
+  }
+  
+  .btns:disabled {
+    background-color: #e0e0e0;
+    color: #a0a0a0;
+    cursor: not-allowed;
+  }
+  

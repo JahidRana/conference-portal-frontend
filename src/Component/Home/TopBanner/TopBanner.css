@@ -1,0 +1,83 @@
+/* .overlay{
+    color: aliceblue;
+    height: 30vh;
+    background-size: auto;
+    background-repeat: no-repeat;
+    animation: animate 20s ease-in-out infinite;
+} */
+
+
+.home-container {
+    background: none;
+    height: 370px;
+}
+.home-container h1 {
+    font-family: monospace;
+    font-size: 55px;
+    font-weight: revert;
+    font-style: italic;
+}
+
+.hederBackground {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    background-image: url('../../../asset/images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 755px;
+
+    
+}
+
+.homeoverlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 97%;
+    height: 51%;
+    position: absolute;
+    top: 0;
+    left: 24px;
+    z-index: -1;
+}
+
+.home-content {
+    padding: 55px 15px;
+    color: aliceblue;
+    height: 30vh;
+    margin-left: 13%;
+}
+.logo{
+    width: 10%;
+    height: 140px;
+    position: absolute;
+    margin-top: 3%;
+}
+/* 
+@keyframes animate {
+
+    0%,
+    100% {
+        background-image: url('../../../asset/images/71.jpg');
+        width: fit-content;
+    }
+
+    25% {
+        background-image: url('../../../asset/images/bluish-plant-leaves-textured.jpg');
+        width: fit-content;
+    }
+
+    50% {
+        background-image: url('../../../asset/images/rsz_37773909931_1201e31d18_b.jpg');
+        width: fit-content;
+    }
+
+    75% {
+        background-image: url('../../../asset/images/20220920_173237.jpg');
+        width: fit-content;
+    }
+} */
